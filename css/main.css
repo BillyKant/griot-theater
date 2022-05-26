@@ -1,0 +1,220 @@
+/* 
+font-family: 'Slabo 27px', serif;
+*/
+
+body{
+    font-family: 'Slabo 27px', serif;
+    margin: 0;
+    display: grid;
+}
+
+/* NAV BAR */
+
+nav{
+    display: grid;
+    width: 100vw;
+    height: 100px;
+    grid-template-columns: 10% 20% 15% 40% 15%;  
+    grid-template-rows: 20% 60% 20%;  
+    background-color: black;               
+}
+
+nav h1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+    font-size: 3em;
+    color: white;
+    font-weight: 50;
+}
+
+#links{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+    width: 45vw;
+}
+
+#links a{
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}
+
+#home{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#features{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#actors{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+#mission{
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+#contact{
+    grid-column-start: 9;
+    grid-column-end: 10;
+}
+
+/* BANNER DIV */
+
+#banner {
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    background-image: url(/theatre_company/assets/theater-image-background.png);
+}
+
+#banner h1{
+    align-self: center;
+    justify-self: center;
+    font-size: 8em;
+    color: white;
+    font-weight: 50;
+}
+
+/* MAIN DIV */
+
+main{
+    margin-top: 12.5vh;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-rows: 5;
+    grid-row-gap: 20px;
+}
+
+main img{
+    width: 15vw;
+}
+
+#main1 h3{
+    border: solid 1px rgb(119, 119, 119);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    background-color: rgb(228, 226, 226);
+}
+
+main h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+#main1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: solid 3px lightgray;
+    padding-bottom: 20px;
+}
+#main2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-bottom: solid 3px lightgray;
+    padding-bottom: 20px;
+}
+#main3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-bottom: solid 3px lightgray;
+    padding-bottom: 20px;
+}
+#main4{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border-bottom: solid 3px lightgray;
+    padding-bottom: 20px;
+}
+#main5{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    border-bottom: solid 3px lightgray;
+    padding-bottom: 20px;
+}
+
+.upcoming{
+    display: grid;
+    grid-template-columns: 30% 50% 40%;
+    
+}
+
+.main{
+    display: grid;
+}
+.upcoming-img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.upcoming-info{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.upcoming-button{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: 100px 80px 100px 80px;
+    background-color: rgb(248, 185, 66);
+    color: white;
+    font-size: 1em;
+}
+
+/* FOOTER DIV */
+
+footer{
+    color: white;
+    background-color: black;
+    background-size: 100%;
+    padding: 100px 100px 100px 200px;
+    display: grid;
+    grid-template-columns: 4;
+}
+
+footer img{
+    width: 17vw;
+}
+
+footer p{
+    margin-top: 6px;
+}
+
+#footer-img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#footer-info{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+#footer-shows{
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+#footer-social{
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.fa-solid{
+    color: orange;
+}
