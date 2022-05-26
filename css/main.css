@@ -78,14 +78,14 @@ nav h1{
     height: 900px;
     display: flex;
     justify-content: center;
-    background-image: url(/theatre_company/assets/theater-image-background.png);
+    background-image: url(/assets/theater-image-background.png);
 }
 
 #banner h1{
     align-self: center;
     justify-self: center;
     font-size: 8em;
-    color: white;
+    color: black;
     font-weight: 50;
 }
 
