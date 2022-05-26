@@ -78,7 +78,7 @@ nav h1{
     height: 900px;
     display: flex;
     justify-content: center;
-    background-image: url(/assets/theater-image-background.png);
+    background-image: url(./assets/theater-image-background.png);
 }
 
 #banner h1{
